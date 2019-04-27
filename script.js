@@ -18,3 +18,6 @@ $(document).ready(function() {
     );
 });
 
+$('.customer').click(function () {
+    location.href = 'customer/index.html';
+});
