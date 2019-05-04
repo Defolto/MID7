@@ -48,3 +48,7 @@ p + ul{
     color: white;
     transform: translateY(-7px);
   }
+.fon1{
+    background-image: url(../img/fon1.jpg);
+    background-size: cover; 
+}

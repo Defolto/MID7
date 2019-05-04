@@ -80,6 +80,62 @@
             </div>
         </div>
     </div>
+    <div class="row py-5 fon1">
+        <div class="col-md-6">
+
+        </div>
+        <div class="col-md-6">
+            <h2>Рассчитать стоимость меню</h2>
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label class="my-1 mr-2" for="fon">Фон</label>
+                    <select class="custom-select my-1 mr-sm-2" id="fon">
+                        <option value="60" selected>Однотонный цвет</option>
+                        <option value="90">Любые обои (разрешение от 1920 Х 1080)</option>
+                        <option value="170">Наложение обоев и однотонного цвета</option>
+                    </select>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label class="my-1 mr-2" for="animation">Анимация</label>
+                    <select class="custom-select my-1 mr-sm-2" id="animation">
+                        <option value="60" selected>Нет</option>
+                        <option value="100">Линейная 2D</option>
+                        <option value="150">Функциональная 2D</option>
+                        <option value="130">Линейная 3D</option>
+                        <option value="180">Функциональная 3D</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label class="my-1 mr-2" for="link">Ссылка на наш сайт</label>
+                      <select class="custom-select my-1 mr-sm-2" id="link">
+                          <option value="30" selected>Да</option>
+                          <option value="100">Нет</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="my-1 mr-2" for="adress">Адрес меню</label>
+                      <select class="custom-select my-1 mr-sm-2" id="adress">
+                          <option value="50" selected>mid7.ru/insta/...</option>
+                          <option value="90">mid7.ru/...</option>
+                          <option value="-20">Полностью ваше название</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label class="my-1 mr-2" for="price">Ваша цена:</label>
+                        <input type="text" class="form-control bg-light" readonly id="price">
+                    </div>
+                    <div class="col-md-8 mb-3">
+                    </div>
+                  </div>
+                <button class="btn btn-primary" type="submit">Заказать</button>
+              </form>
+        </div>
+    </div>
 </div>
     <script src="../jquery-1.11.0.js"></script>   
     <script src="../bootstrap/js/bootstrap.min.js"></script>
